@@ -12,7 +12,7 @@ public class MagentoTest {
 	public  void posCredentials1() throws Exception {
 		// TODO Auto-generated method stub
 		String url="https://www.magento.com";
-		WebDriver driver=new ChromeDriver();
+		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
 		driver.get(url);
